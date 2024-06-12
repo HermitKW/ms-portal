@@ -1,0 +1,18 @@
+#case-sidebar-menu-wrapper{
+    .case-menu-list-wrapper{
+        padding:0px;
+    }
+    .case-menu-list-wrapper  button.active, .sub-menu-list-wrapper  button.active{
+        border-radius: 0px;
+        background:#CBE0E8;
+    }
+
+    .menu-list-wrapper  button, .sub-menu-list-wrapper  button{
+        border-radius: 0px;
+    }
+
+    .menu-list-wrapper  button,.sub-menu-list-wrapper  button,.sub-menu-list-wrapper  a{
+        color: #223354;
+    }
+
+}

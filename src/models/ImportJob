@@ -1,0 +1,13 @@
+export type ImportJobMaintainQueryResult = {
+    name: string;
+    documentClass: string;
+    frequency: string;
+    details: string;
+};
+
+export const emptyImportJobMaintainQueryResult: ImportJobMaintainQueryResult = {
+    name: '',
+    documentClass: '',
+    frequency: '',
+    details: '',
+}

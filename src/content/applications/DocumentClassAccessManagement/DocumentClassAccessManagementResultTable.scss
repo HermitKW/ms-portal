@@ -1,0 +1,28 @@
+#document-class-access-mgmnt{
+  .search-container{
+    padding: 30px 18px 0px 18px;
+  }
+  
+  .search-container .row {
+    gap: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .search-container .row .field {
+    flex-wrap: wrap;
+    width: 210px;
+  }
+  .search-container .row .field > div {
+    width: 100%;
+  }
+  
+  table thead th{
+    padding: 0px 15px!important;
+    
+  }
+  
+  table thead th > div{
+    font-size: 9px!important;
+  }
+
+}

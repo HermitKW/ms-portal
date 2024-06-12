@@ -1,0 +1,18 @@
+#sidebar-menu-wrapper{
+    // .menu-list-wrapper{
+    //     padding:0px;
+    // }
+    .menu-list-wrapper  button.active, .sub-menu-list-wrapper  button.active{
+        border-radius: 0px;
+        background:white;
+    }
+
+    .menu-list-wrapper  button, .sub-menu-list-wrapper  button{
+        border-radius: 0px;
+    }
+
+    .menu-list-wrapper  button,.sub-menu-list-wrapper  button,.sub-menu-list-wrapper  a{
+        color: #223354;
+    }
+
+}

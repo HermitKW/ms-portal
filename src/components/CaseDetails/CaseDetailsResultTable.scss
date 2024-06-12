@@ -1,0 +1,28 @@
+#case-details-mgmnt{
+  .search-container{
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .search-container .row {
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .search-container .row .field {
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  .search-container .row .field > div {
+    width: 100%;
+  }
+  
+  table thead th{
+    padding: 0px 15px!important;
+    
+  }
+  
+  table thead th > div{
+    font-size: 9px!important;
+  }
+
+}
