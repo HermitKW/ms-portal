@@ -18,6 +18,7 @@ import SearchField from '../../../components/Input/SearchField';
 import LastModifiedCaseCard from "src/components/Card/LastModifiedCaseCard";
 import { maxWidth } from "@mui/system";
 import BICard from "../../../components/Card/BICard"
+import LastHandlingCaseTable from "../../../components/Table/LastHandlingCaseTable";
 
 const Dashboard = () =>{
 
@@ -33,23 +34,47 @@ const Dashboard = () =>{
 
           <Box >
             <Grid container xs={12} sm={12} sx={{ alignItems:"center" ,pt:3, pb:3}}>
-              <Grid item xs={12} sm={0.6}/>
+              <Grid item xs={12} sm={0.5}/>
               <Grid item xs={12} sm={0.1} sx={{justifyContent: "center", alignItems:"center" }}/>
 {/*                 <Grid item xs={12} sm={2.4} sx={{justifyContent: "center", alignItems:"center" }}>
  */}                  <CaseCard/>
 {/*                 </Grid>
-      */}     <Grid item xs={12} sm={4.5} sx={{justifyContent: "center", alignItems:"center", paddingLeft:"2rem"}}>
-                <Box sx={{ backgroundColor:"white", borderRadius:"16px", justifyItems:"center", alignItems:"center"}}>
-                  <LastModifiedCaseCard/>
+      */}     <Grid item xs={12} sm={7} sx={{justifyContent: "center", alignItems:"center", paddingLeft:"2rem"}}>
+        {/* <Box sx={{ backgroundColor:"white", borderRadius:"16px", justifyItems:"center", alignItems:"center", p:2, m:0 }}> */}
+        <LastHandlingCaseTable/>
+                {/* <Box sx={{ backgroundColor:"white", borderRadius:"16px", justifyItems:"center", alignItems:"center", display: 'inline' }}>
+                <LastModifiedCaseCard
+              id={ "RC" }
+              name={ "Case Type: RC" }
+              text={"RN Number: KN200000"}/>
+
+              <LastModifiedCaseCard
+              id={ " NC" }
+              name={ "Case Type: NC" }
+              text={"RN Number: KN200000"}/>
+
                 </Box>
+
+                <Box sx={{ backgroundColor:"white", borderRadius:"16px", justifyItems:"center", alignItems:"center", display: 'inline'}}>
+                  <LastModifiedCaseCard
+              id={ "MIS" }
+              name={ "Case Type: MIS" }
+              text={"RN Number: KN200000"}/>
+             
+              <LastModifiedCaseCard
+              id={ "Case Type: MIS(EDM)" }
+              name={ "Case Type: MIS(EDM)" }
+              text={"RN Number: KN200000"}/>
+                </Box> */}
+                {/* </Box> */}
               </Grid>
-                <Grid item xs={12} sm={4} sx={{justifyContent: "center", alignItems:"center" }}>
+                <Grid item xs={12} sm={3} sx={{justifyContent: "center", alignItems:"center" }}>
                   <CalendarCard/>
                 </Grid>
               </Grid>
 
               
-    <Grid container xs={5} sm={8} md={8} spacing={6} sx={{ alignItems:"center", marginLeft:"3vw", marginTop:"0"}} >
+    <Grid container xs={5} sm={8} md={8} spacing={0} sx={{ alignItems:"center", marginLeft:"5vw", marginTop:"0", display: "flex", flexDirection:"row", gap: 3 }} >
 
       <Grid item xs={12} sm={2.5} sx={{justifyContent: "center", alignItems:"center" }}>
         <FunctionCard     

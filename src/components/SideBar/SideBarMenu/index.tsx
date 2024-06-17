@@ -191,6 +191,7 @@ const SubMenuWrapper = styled(Box)(
 
         .MuiCollapse-root {
           width: 100%;
+        }
 
           .MuiList-root {
             padding: ${theme.spacing(1, 0)};
@@ -204,6 +205,7 @@ const SubMenuWrapper = styled(Box)(
 
               .MuiBadge-root {
                 right: ${theme.spacing(3.2)};
+
               }
 
               &:before {

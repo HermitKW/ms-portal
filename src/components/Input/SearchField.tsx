@@ -10,7 +10,7 @@ const SearchField = () =>{
   return (
     <Paper
       component="form"
-      sx={{  width:'20vw', height: 48, p: '2px 4px', display: 'flex', alignItems: 'center', }}
+      sx={{  width:'60vw', height: 48, p: '2px 4px', display: 'flex', alignItems: 'center', }}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}

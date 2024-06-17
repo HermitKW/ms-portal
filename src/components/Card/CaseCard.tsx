@@ -9,7 +9,7 @@ import CaseTabs from '../Tab/CaseTab';
 
 const CaseCard = () => {
   return (
-    <Card sx={{ pt:1, pb:1, pr:2, pl: 2, borderRadius: '16px', minWidth: 200, minHeight: 100, top: 180,}}>
+    <Card sx={{ pt:1, pb:1, pr:2, pl: 2, borderRadius: '16px', minWidth: 188, height: 420, top: "40%"}}>
       <CardContent>
         <CaseTabs/>
       </CardContent>

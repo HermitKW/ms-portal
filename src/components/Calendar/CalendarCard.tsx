@@ -9,12 +9,12 @@ import BasicTabs from '../Tab/BasicTabs';
 
 const CalendarCard = () => {
   return (
-    <Card sx={{ pt:2, pb:2, pr:1, pl: 1, borderRadius: '16px', height: 860, minWidth: 280, minHeight: 100,position: 'absolute',
-    top: 90,
-    left: '66%',
+    <Card sx={{ pt:2, pb:2, pr:1, pl: 1, borderRadius: '16px', height: 928, minWidth: 280, minHeight: 100,position: 'absolute',
+    top: 88,
+    left: '70%',
     zIndex:2}}>
       <CardContent>
-        <Typography sx={{ fontSize: "16px", fontWeight:500, }} color="#333D47" gutterBottom>
+        <Typography sx={{ fontSize: "18px", fontWeight:500 }} color="#333D47" gutterBottom>
         To-do Task List
         </Typography>
         <BasicTabs/>
